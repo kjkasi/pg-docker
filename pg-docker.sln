@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pg-docker", "pg-docker\pg-docker.csproj", "{0BB22182-6B8C-485A-ABE7-2160488630DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pg-docker", "pg-docker\pg-docker.csproj", "{0BB22182-6B8C-485A-ABE7-2160488630DD}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{66008211-89FB-420D-AE7D-1562E814528C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0BB22182-6B8C-485A-ABE7-2160488630DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BB22182-6B8C-485A-ABE7-2160488630DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BB22182-6B8C-485A-ABE7-2160488630DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66008211-89FB-420D-AE7D-1562E814528C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66008211-89FB-420D-AE7D-1562E814528C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66008211-89FB-420D-AE7D-1562E814528C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66008211-89FB-420D-AE7D-1562E814528C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
